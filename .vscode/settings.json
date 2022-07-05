@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/73595f49-66d8-4dc3-bc2c-28d4da5f0b75/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/newsproyectfrontend",
+    "appService.deploySubpath": "."
+}
