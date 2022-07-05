@@ -11,12 +11,7 @@ const Navbar = ({ brand }) =>{
             </div>
          </nav>
             <hr/>
-            <div className="container">
-                <div className='rows'>
-                  <link></link>       
-                </div>
-                <br></br>          
-            </div>
+          
         </>       
     )
 } 

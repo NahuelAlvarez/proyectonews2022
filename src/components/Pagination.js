@@ -13,22 +13,22 @@ const Pagination = ({prev, next, onPrevious, onNext}) => {
     return(
         <nav>
             <ul className="pagination justify-content-center">
-                {
-                    prev ?
+                {/* {
+                    prev ? */}
                     <li className="page-item">
                         <button className="page-link" onClick={handledPrevios}>Previous</button>
                     </li>   
-                    :
-                    null  
+                    
+                    {/* null  
                 }
                 {
-                    next ?
+                    next ? */}
                     <li className="page-item">
                         <button className="page-link" onClick={handledNext}>Next</button>
                     </li>
-                    :
+                    {/* :
                     null
-                }
+                } */}
             </ul>
         </nav>
     );

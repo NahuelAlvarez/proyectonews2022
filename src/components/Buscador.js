@@ -1,7 +1,9 @@
 import React from "react";
 const Blanc = "_blank";
 
-const News = ({articulos = []}) => {
+
+
+const Buscador = ({articulos = []}) => {
     return (
         articulos.map((item, index) => (
             <div className="card mb-3" style={{ maxWidth: "990px"}}>
@@ -25,4 +27,4 @@ const News = ({articulos = []}) => {
     )
 }
 
-export default News;
+export default Buscador;
